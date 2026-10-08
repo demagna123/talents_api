@@ -1,0 +1,28 @@
+{
+  "name": "skullvi_challenge_api",
+  "version": "1.0.0",
+  "description": "une api pour trier les candidatures à skullvi",
+  "license": "ISC",
+  "author": "DEMAGNA Ablam",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed:skills": "node src/data/seeders/skills.seed.js",
+    "seed:admin": "node src/data/seeders/admin.seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.5",
+    "nodemailer": "^10.0.15",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8"
+  }
+}
