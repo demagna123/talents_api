@@ -231,7 +231,7 @@ Les routes de l'API ont été testées manuellement avec Postman. Il n'existe pa
 ### Backend
 
 ```bash
-cd backend
+cd talents_api
 npm install
 ```
 
@@ -269,7 +269,7 @@ Le serveur écoute sur `http://localhost:5001`.
 ### Frontend
 
 ```bash
-cd frontend
+cd talent_app_react
 npm install
 cp .env.example .env        # VITE_API_URL=http://localhost:5001
 npm run dev
